@@ -1,0 +1,10 @@
+{
+  "application": {
+    "nodes": {
+      "urcaps-r-us-advanced-ros2-frontend-ros2-communicator": {
+        "title": "Ros2 Communicator",
+        "supportiveText": "Ros2 Communicator - Supportive Text"
+      }
+    }
+  }
+}

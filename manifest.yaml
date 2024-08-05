@@ -1,0 +1,16 @@
+metadata:
+  vendorID: urcaps-r-us
+  urcapID: advanced-ros2
+  vendorName: "URCaps R. Us"
+  urcapName: "advanced-ros2"
+  version: 1.0.0
+artifacts:
+  webArchives:
+  - id: advanced-ros2-frontend
+    folder: advanced-ros2-frontend
+  containers:
+  - id: advanced-ros2-backend
+    image: advanced-ros2-backend:latest
+    mounts:
+    - mount: tmpfs:/root/.ros
+      access: rw
